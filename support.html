@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>谨小智 - 技术支持</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: #f2f4f8;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.5;
+            padding: 2rem 1rem;
+            color: #1e2a3e;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 28px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+            padding: 2rem 1.8rem;
+        }
+        h1 {
+            font-size: 1.9rem;
+            font-weight: 600;
+            background: linear-gradient(135deg, #1e3c72, #2b4c7c);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            margin-bottom: 0.5rem;
+        }
+        .meta {
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 0.8rem;
+            margin-bottom: 1.8rem;
+            font-size: 0.85rem;
+            color: #4a627a;
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        .section h2 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            border-left: 4px solid #2c7da0;
+            padding-left: 0.8rem;
+            margin-bottom: 1rem;
+            color: #0f2b3d;
+        }
+        .issue-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        .issue-list li {
+            margin-bottom: 1rem;
+            padding-left: 0;
+        }
+        .issue-title {
+            font-weight: 700;
+            color: #1e4663;
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+        .issue-desc {
+            color: #33475b;
+            padding-left: 1rem;
+            border-left: 2px solid #cbdde9;
+            margin-top: 0.2rem;
+        }
+        .contact-card {
+            background: #f0f6fa;
+            border-radius: 20px;
+            padding: 1.2rem 1.5rem;
+            margin-top: 1rem;
+            text-align: center;
+        }
+        .email {
+            font-family: monospace;
+            background: white;
+            display: inline-block;
+            padding: 0.3rem 1.2rem;
+            border-radius: 40px;
+            font-size: 1rem;
+            font-weight: 500;
+            border: 1px solid #cbdde9;
+            margin: 0.5rem 0;
+            color: #1f6392;
+        }
+        .tip {
+            background: #fef9e3;
+            border-left: 4px solid #f5b042;
+            padding: 0.8rem 1rem;
+            border-radius: 14px;
+            margin: 1rem 0;
+            font-size: 0.85rem;
+        }
+        hr {
+            margin: 1.5rem 0;
+            border: none;
+            height: 1px;
+            background: #e2e8f0;
+        }
+        .footer {
+            text-align: center;
+            font-size: 0.75rem;
+            color: #7c8ba0;
+        }
+        @media (max-width: 600px) {
+            .container { padding: 1.3rem; }
+            h1 { font-size: 1.6rem; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>谨小智 · 技术支持</h1>
+    <div class="meta">
+        📅 更新日期：2026-05-17 | 若遇到问题，请先参考下方常见排查步骤
+    </div>
+
+    <div class="section">
+        <h2>🔐 登录相关问题</h2>
+        <ul class="issue-list">
+            <li>
+                <span class="issue-title">• 登录失败</span>
+                <div class="issue-desc">请确认账号、密码或短信验证码是否正确，并检查当前网络连接（尝试切换 Wi-Fi / 蜂窝网络）。</div>
+            </li>
+            <li>
+                <span class="issue-title">• 无法接收验证码</span>
+                <div class="issue-desc">请检查手机号填写是否正确，查看短信拦截设置（骚扰拦截/黑名单），稍等 1-2 分钟后重新获取。</div>
+            </li>
+            <li>
+                <span class="issue-title">• Face ID 登录异常</span>
+                <div class="issue-desc">请确认系统设置中已为「谨小智」开启 Face ID 权限，并且当前设备支持面容识别。</div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>🔔 消息与数据同步</h2>
+        <ul class="issue-list">
+            <li>
+                <span class="issue-title">• 消息未提醒或延迟</span>
+                <div class="issue-desc">检查 iOS 系统通知权限是否开启，以及 App 内「消息通知」开关是否处于启用状态。</div>
+            </li>
+            <li>
+                <span class="issue-title">• 数据未同步</span>
+                <div class="issue-desc">请下拉首页刷新数据，并确认当前网络可用（避免使用代理或 VPN）。</div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>📱 其他功能异常</h2>
+        <div class="tip">
+            💡 如果上述步骤无法解决您的问题，或遇到其他未列举的情况，请通过下方邮箱联系我们。<br>
+            为了更快定位问题，建议您附带：<strong>问题截图 + 简要操作步骤 + 设备型号与系统版本</strong>。
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>📬 联系我们</h2>
+        <div class="contact-card">
+            📧 技术支持邮箱<br>
+            <span class="email">jxzlaw@163.com</span>
+            <p style="margin-top: 10px; font-size: 0.85rem;">我们将在 24 小时内（工作日）回复您的邮件。</p>
+        </div>
+    </div>
+
+    <hr />
+    <div class="footer">
+        © 2026 谨小智 · 持续优化使用体验
+    </div>
+</div>
+</body>
+</html>
